@@ -3,18 +3,16 @@
 
 스마트 컨트랙트를 개발하기 위한 언어
 ## 스마트컨트랙트란 
+------------------------------------------------------------------------
+
 미리 정의된 조건이 충족되면 블록체인에 저장된 프로그램이 작동하는것을 말함
 
  
-
-솔리디티의 데이터 타입은 세가지로 나뉜다.
-
-data type,reference type,mapping type이며
- 
+솔리디티의 데이터 타입은 세가지로 나뉘며,(data type,reference type,mapping type) 
 data type은 boolean,bytes,address,uint이 있다.
 
+=======================================================================
  
-
 boolean= true / false
 
 ex) bool public b = false;
