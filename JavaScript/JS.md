@@ -41,3 +41,42 @@ getElementById는 명확하게 id를 검색하는것으로 명시했기 때문�
 Login
 JavaScript가 들어와서 제일 먼저 local storage를 확인함
 
+
+### JavaScript 함수
+------------------------------------------------------------------------
+
+
+
+.padStart()
+
+이 함수는 가지고 있는 string을 보다 길게 만들어주어야 할 때 사용함
+string 문자열을 원하는 길이까지 추가시켜줄수있음
+
+ex) "1".padStart(2,"0")
+='01'
+
+이 경우 string이 가져야 하는 길이를 2으로 설정해주고, 그렇지 않다면 앞쪽에 0을 추가시켜줌
+
+.padEnd()
+
+ex) "1".padEnd(3,"0")
+='100'
+
+이 경우 string이 가져야 하는 길이를 3으로 설정해주고, 그렇지 않다면 뒤쪽에 0을 추가 시켜줌
+
+
+
+Math.random():0~1사이의 랜덤값을 줌
+그래서 10을 곱하면 0에서 10 사이의 값을 랜덤으로 받을 수 있음
+ex)Math.random() * 10
+
+이때 정수뿐만이 아닌 소수점도 같이 받게 됨
+ex)5.xxxxxxxxxxx
+
+여기서 소수점을 없애기 위해 세 가지의 함수를 사용가능함
+1.Math.round
+ex)Math.round(1.1) = 1  ,  Math.round(1.7) = 2
+2.Math.ceil()
+ex)Math.ceil(1.1) = 2
+3.Math.floor()
+ex)Math.floor(1.8) = 1 
