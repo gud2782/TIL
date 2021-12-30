@@ -80,3 +80,11 @@ ex)Math.round(1.1) = 1  ,  Math.round(1.7) = 2
 ex)Math.ceil(1.1) = 2
 3.Math.floor()
 ex)Math.floor(1.8) = 1 
+
+
+### 자바스크립트 Object나 array 등등을 String으로 바꾸기
+const player = {name:"abc"}
+
+JSON.stringfy(player)
+
+값을 string으로 바꾸고 싶을때 사용함
