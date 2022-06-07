@@ -36,3 +36,25 @@ VS Code에서 git commit & push 하기
 (5)이전에는 어떤 곳을 이용했었는지
 
 6.개인 계정에서 레포지토리 생성했던 것처럼 단체 계정으로 저장소 생성이 가능함
+
+## Git 명령어
+
+git config --global user.name "유저 이름" : 깃 사용자 이름 설정
+git config --global user.email "이메일 주소" : 깃 사용자 이메일 설정
+
+git status : 깃 상태 확인
+
+git add 특정파일명 : 특정파일을 스테이징 하기
+git add . : 전체 파일 스테이징 하기
+git commit -m "메세지 내용" : 메세지와 함께 커밋하기
+
+git branch : 브랜치 확인
+git branch 브랜치이름 : '브랜치이름'으로 브랜치 만들기
+git branch -d 삭제할브랜치이름 : 브랜치 삭제(마스터 브랜치에서 해야한다.)
+git checkout 브랜치이름 : '브랜치이름'으로 브랜치 이동
+git merge 병합할브랜치이름 : 브랜치 병합
+
+git push -u origin master : 지역 저장소의 브랜치를 원격 저장소의 마스터 브랜치와 연결 (한번만 하면됨)
+git push : 원격 저장소에 올리기
+git clone 원격저장소주소 지역저장소디렉토리 : 원격저장소 가져오기
+git pull origin master : 원격 저장소의 내용을 지역 저장소의 마스터브랜치로 가져오기
